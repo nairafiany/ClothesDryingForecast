@@ -7,7 +7,7 @@ const useForecast = () => {
     const [city, setCity] = useState<optionType | null>(null)
     const getSearchOptions = (value: string) => {
       const apiKey = import.meta.env.VITE_APP_API_KEY
-      const url = `http://api.openweathermap.org/geo/1.0/direct?q=${value.trim()}&limit=5&appid=${apiKey}`;
+      const url = `https://api.openweathermap.org/geo/1.0/direct?q=${value.trim()}&limit=5&appid=${apiKey}`;
       fetch(url)
       .then((res) => res.json())
       .then((data)=> setOptions(data))

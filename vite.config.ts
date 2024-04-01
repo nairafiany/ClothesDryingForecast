@@ -6,4 +6,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   envPrefix: "VITE_APP_",
   plugins: [react(), envCompatible()],
+  base:"/ClothesDryingForecast/"
 })
