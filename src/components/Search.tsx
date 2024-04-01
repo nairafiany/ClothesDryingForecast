@@ -18,7 +18,7 @@ function Search(
           <section className='w-full md:max-w-[500px] p-4 flex flex-col text-center items-center justify-center 
           md:px-10 lg:p-24 h-full lg:h-[500px] bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg rounded text-zinc-700'>
             <h1 className='text-4x1 font-semibold'>
-              Should You <span className='italic font-black'>Dry Your Clothes Outsider</span>  Or Not?
+              Should You <span className='italic font-black'>Dry Your Clothes Outside</span>  Or Not?
             </h1>
             <p className='text-sm mt-2'>
               Enter where you are currently
